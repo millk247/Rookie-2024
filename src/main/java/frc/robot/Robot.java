@@ -122,13 +122,12 @@ double feedpower = 0;
 
   /** This function is called periodically during autonomous. */
   @Override
-  public void autonomousPeriodic() {
-    //switch (m_autoSelected) {
+  public void autonomousPeriodic() { 
+    switch (m_autoSelected) {
 
-     
-      /*case kSpeakerLong:
+      case kSpeakerLong:
 
-
+       break;
         if (timer1.get() < 3){
           launchwheel.set(1);
         }
@@ -210,8 +209,8 @@ double feedpower = 0;
           myDrive.tankDrive(0,0);
         }
         
-       // break;
-       */
+        break;
+      
     }
    
 
